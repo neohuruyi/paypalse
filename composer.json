@@ -1,0 +1,23 @@
+{
+    "name": "neohuruyi/paypalse",
+    "description": "Secondary development of PayPal,be based on paypal/paypal-checkout-sdk",
+    "keywords": ["paypal", "php"],
+    "homepage": "https://github.com/hufang/paypalse",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huhansan",
+            "email": "hansan.hu@foxmail.com"
+        }
+    ],
+    "require": {
+            "php": ">=7.0",
+            "paypal/paypal-checkout-sdk": "^3.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Paypalse\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
